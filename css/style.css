@@ -103,6 +103,9 @@ h1 {
 .main-p {
   line-height: 150%;
 }
+.btn.btn-blu {
+  background-color: #7289da;
+}
 
 /* # HEADER */
 
@@ -163,7 +166,7 @@ h1 {
   background-color: white;
 }
 .page-content > section:nth-child(even) {
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
 
 .page-content > section:nth-child(even) .row {
@@ -194,10 +197,10 @@ h1 {
   padding: 10px;
   background-size: contain;
   background-repeat: no-repeat;
-
   background-position: top center;
   margin: 0 auto;
 }
+
 /* # FOOTER */
 
 .page-footer {
