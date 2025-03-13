@@ -208,37 +208,50 @@ h1 {
   padding-top: 0.5rem;
   color: white;
 }
-.page-footer .col-30 {
-  background-color: #f08180;
-  border: 2px dashed black;
-}
+
 .page-footer .col-30,
 .page-footer .col-70,
 .page-footer .col-25 {
   min-height: 400px;
 }
-.page-footer .col-70 {
-  background-color: #20b3aa;
-  border: 2px dashed black;
-}
-.page-footer .col-25 {
-  border: 2px dashed white;
-}
 
 .footer-top {
   padding-bottom: 40px;
   margin-bottom: 30px;
-  border-bottom: 1px solid white;
 }
 .footer-bottom {
   padding: 16px 0;
   display: flex;
   justify-content: space-between;
-  background-color: #7fffd4;
 }
 .footer-bottom * {
-  background-color: #ffb8c0;
-  border: 1px dashed black;
-  color: black;
   padding: 0.5rem 1rem;
+}
+
+.page-footer h3 {
+  padding-top: 10px;
+  font-size: 30px;
+  color: #7389d9;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.footer-top img {
+  width: 20px;
+  margin-right: 5px;
+}
+.icon i {
+  display: inline-block;
+  padding-left: 8px;
+}
+.page-footer h4 {
+  color: #7389d9;
+  padding-top: 20px;
+}
+
+.page-footer .menu-links a {
+  color: white;
+  line-height: 35px;
 }
